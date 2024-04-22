@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import 'bootstrap/dist/css/bootstrap.css'
 import "./globals.css";
+import { HTML5Backend } from "react-dnd-html5-backend";
+import { DndProvider } from "react-dnd";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      {/* <DndProvider backend={HTML5Backend}> */}
+      <div>{children}</div>
+    {/* </DndProvider> */}
+        </body>
     </html>
   );
 }
