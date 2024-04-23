@@ -36,7 +36,7 @@ const SwimLane: React.FC<SwimLaneProps> = ({ title, laneId,cards,updateCards }) 
 
   {cards.map((card:Card) => (
     card.status === laneId ?
-          <SwimLaneCard key={card.id} id={card.id} title={card.cardName} />:null
+          <SwimLaneCard key={card.id} id={card.id} card={card} />:null
         ))}
 
 </DroppableArea>
