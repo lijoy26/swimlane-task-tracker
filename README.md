@@ -7,7 +7,7 @@ Swimlane Task Tracker is a user interface (UI) that facilitates the drag-and-dro
 - **Drag-and-Drop Functionality (Completed):** Easily move blocks between lanes representing different stages or states using drag-and-drop.
 - **Configurability (In Progress):** The UI is configurable via a master configuration, allowing or restricting blocks from moving to unspecified stages or states based on predefined rules.
 - **Data Entry Prompt (In Progress):** Upon moving a block to a new state, the UI prompts the user to provide necessary data that enables the transition for the block. This data entry process is seamlessly integrated into the UI workflow.
-- **Block Preview (In Progress):** Users can click on a block within the swimlanes to preview its details. The block preview includes a history of all previous transitions for the block, providing users with a comprehensive view of its journey within the system.
+- **Block Preview (Completed):** Users can click on a block within the swimlanes to preview its details. The block preview includes a history of all previous transitions for the block, providing users with a comprehensive view of its journey within the system.
 - **Top-Level Filter Mechanism (In Progress):** The UI includes a top-level filter mechanism that enables users to select and display blocks based on specified attributes.
 
 ## Technologies Used

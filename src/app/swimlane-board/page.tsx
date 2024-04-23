@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import SwimLaneContainer from "../components/SwimLaneContainer";
+import CardModal from "../components/CardModal";
 export interface Card {
   id: string;
   cardName: string;
